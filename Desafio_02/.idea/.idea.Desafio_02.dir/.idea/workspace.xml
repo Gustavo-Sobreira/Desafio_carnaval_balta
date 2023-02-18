@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854a77e9-dcab-4272-b250-fdd2bb742418" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/regras.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio_01/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desafio_02.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desafio_02.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regras.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Regras.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/regras.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Regras.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,22 +22,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/home/sobreira/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/sobreira/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="RunExe" factoryName=".NET Executable" nameIsGenerated="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net6.0/Desafio_02.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug/net6.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="RUNTIME_TYPE" value="coreclr" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676726041780</updated>
       <workItem from="1676726043876" duration="424000" />
+      <workItem from="1676734115058" duration="192000" />
+      <workItem from="1676734693665" duration="257000" />
     </task>
     <servers />
   </component>

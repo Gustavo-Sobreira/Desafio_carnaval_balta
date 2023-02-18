@@ -51,6 +51,7 @@ double ValidarMedida(double medidaInformada, string medida)
 double altura = GetMedidas("mede");
 double peso = GetMedidas("pesa");
 double imc = (peso / (altura * altura));
+List<string> classificacao = Regras.RetornarClassificacao(imc);
 
 Console.WriteLine($"IMC = ({peso} ÷ ({altura} x {altura})) = " + imc.ToString("N2"));
-Console.WriteLine(Regras.RetornarClassificacao(imc));
+Console.WriteLine(classificacao[0] +"\n" + classificacao[1]);
