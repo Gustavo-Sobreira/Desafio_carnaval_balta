@@ -23,8 +23,8 @@ void ExibirResultados()
     
     Contador fraseAtual = new Contador(fraseRecebida);
     Console.WriteLine("-> SUA FRASE: {0}\n\n"+
-    "                            TEMOS {1} CARACTERES \n" +
-    "                               E {2} PALAVRAS\n" +
+    "                           TEMOS {1} CARACTERES \n" +
+    "                              E {2} PALAVRAS\n" +
     "========== ========== ========== # # # ========== ========== =========="
         ,fraseRecebida.ToUpper(), fraseAtual.ContarTotalCaracteres(), fraseAtual.ContarTotalDePalvaras());
 }

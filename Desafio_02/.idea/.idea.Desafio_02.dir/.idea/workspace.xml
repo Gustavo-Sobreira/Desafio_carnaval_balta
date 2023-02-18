@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854a77e9-dcab-4272-b250-fdd2bb742418" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/regras.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio_01/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/bin/Debug/net6.0/desafio001.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio_01/obj/Debug/net6.0/desafio001.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/regras.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LuflkgwFp2adE2bkKYshbtf0E1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/home/sobreira/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/home/sobreira/.local/share/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854a77e9-dcab-4272-b250-fdd2bb742418" name="Changes" comment="" />
+      <created>1676726041780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676726041780</updated>
+      <workItem from="1676726043876" duration="424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
