@@ -14,7 +14,7 @@ public class Contador
 
     public int ContarTotalDePalvaras()
     {
-        char[] caracteresDeSeparacao = { ' ', '!', '|', '>', '<', '.', ',', ';', ':', '?', '\n', '\r' };
+        char[] caracteresDeSeparacao = { ' ', '\n', '\r' };
         string[] palavrasSeparadas = _frase.Split(caracteresDeSeparacao);
         return palavrasSeparadas.Length;
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/desafio001.csproj",
+      "projectUniqueName": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/Desafio_01/desafio001.csproj",
       "projectName": "desafio001",
-      "projectPath": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/desafio001.csproj",
+      "projectPath": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/Desafio_01/desafio001.csproj",
       "packagesPath": "/home/sobreira/.nuget/packages/",
-      "outputPath": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/obj/",
+      "outputPath": "/home/sobreira/Codigos/CSharp/Console/Desafio_carnaval_balta/Desafio_01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sobreira/.nuget/NuGet/NuGet.Config"
