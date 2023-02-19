@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854a77e9-dcab-4272-b250-fdd2bb742418" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desafio_02.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desafio_02.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regras.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Regras.cs" afterDir="false" />
-    </list>
+    <list default="true" id="854a77e9-dcab-4272-b250-fdd2bb742418" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +61,7 @@
       <workItem from="1676726043876" duration="424000" />
       <workItem from="1676734115058" duration="192000" />
       <workItem from="1676734693665" duration="257000" />
+      <workItem from="1676737631364" duration="151000" />
     </task>
     <servers />
   </component>
