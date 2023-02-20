@@ -10,44 +10,39 @@ public static class Caixa
 
     public static void SepararTroco(decimal valorTotalDaCompra, decimal valorDoPagamento)
     {
-        List<decimal> moedaParaTroco = new List<decimal>();
+        List<decimal> moedasParaTroco = new List<decimal>();
 
         decimal troco = valorDoPagamento - valorTotalDaCompra;
 
-        for (int i = 0; (i <= _valoresMoeda.Length) && (troco > 0); i++)
+        for (int i = 0; (i < _valoresMoeda.Length) && (troco > 0); i++)
         {
             if (_valoresMoeda[i] <= troco)
             {
                 troco -= _valoresMoeda[i];
-                moedaParaTroco.Add(_valoresMoeda[i]);
+                moedasParaTroco.Add(_valoresMoeda[i]);
                 i--;
             }
         }
-        ContadorDeTroco(moedaParaTroco);
+        ContadorDeTroco(moedasParaTroco);
     }
 
-    public static void ContadorDeTroco(List<decimal> notasParaTroco)
+    public static void ContadorDeTroco(List<decimal> moedasParaTroco)
     {
         Console.Write("Troco:\n");
-        int valor = 0;
 
-        for (valor = 0; valor < notasParaTroco.Count() - 1; valor++)
+        for (int i = 0; i < moedasParaTroco.Count; i++)
         {
-            int totalDeNota = 1;
+            int totalDeMoeda = 1;
 
-            if (notasParaTroco[valor] == notasParaTroco[valor + 1])
+            if (i < moedasParaTroco.Count - 1 && moedasParaTroco[i] == moedasParaTroco[i + 1])
             {
-                totalDeNota++;
-                valor++;
+                totalDeMoeda++;
+                i++;
             }
-            Console.WriteLine($"> {totalDeNota} nota(s) de {notasParaTroco[valor].ToString("C")} ");
+            Console.WriteLine($"> {totalDeMoeda} moeda(s) de {moedasParaTroco[i].ToString("C")}");
         }
 
-        // if (notasParaTroco[notasParaTroco.Count() - 1] != notasParaTroco[notasParaTroco.Count() - 2])
-        // {
-        //     Console.WriteLine($"> 1 nota(s) de {notasParaTroco[valor - 1]} reais.");
-        // }
-        if (notasParaTroco[valor] > 0 && notasParaTroco[valor] < 2) Console.WriteLine($"E {notasParaTroco[valor].ToString("C")} para serem distribuídos em moedas");
+        if (moedasParaTroco.Last() > 0 && moedasParaTroco.Last() < 1) Console.WriteLine($"E {moedasParaTroco.Last().ToString("C")} para serem distribuídos em moedas");
     }
 
     public static decimal GetValor(string tipoPagamento)
@@ -57,7 +52,7 @@ public static class Caixa
 
         try
         {
-            Console.WriteLine($"Qual foi o valor {tipoPagamento}?\nFormato X.XX");
+            Console.WriteLine($"Qual foi o valor {tipoPagamento}?");
             decimal recebido = decimal.Parse(Console.ReadLine());
             valor = 0 <= recebido ? recebido : GetValor(tipoPagamento);
         }
@@ -71,3 +66,5 @@ public static class Caixa
     }
 
 }
+
+
