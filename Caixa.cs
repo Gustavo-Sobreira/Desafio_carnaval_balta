@@ -18,6 +18,7 @@ public static class Caixa
         {
             if (_valoresMoeda[i] <= troco)
             {
+                
                 troco -= _valoresMoeda[i];
                 moedasParaTroco.Add(_valoresMoeda[i]);
                 i--;
@@ -33,16 +34,17 @@ public static class Caixa
         for (int i = 0; i < moedasParaTroco.Count; i++)
         {
             int totalDeMoeda = 1;
-
+           
             if (i < moedasParaTroco.Count - 1 && moedasParaTroco[i] == moedasParaTroco[i + 1])
             {
                 totalDeMoeda++;
                 i++;
             }
-            Console.WriteLine($"> {totalDeMoeda} moeda(s) de {moedasParaTroco[i].ToString("C")}");
+            var opcao = (moedasParaTroco[i] > 0 && moedasParaTroco[i] < 1) ? "Moeda" : "Nota";
+            Console.WriteLine($"> {totalDeMoeda} {opcao} de {moedasParaTroco[i].ToString("C")}");
         }
 
-        if (moedasParaTroco.Last() > 0 && moedasParaTroco.Last() < 1) Console.WriteLine($"E {moedasParaTroco.Last().ToString("C")} para serem distribuídos em moedas");
+        
     }
 
     public static decimal GetValor(string tipoPagamento)
@@ -66,5 +68,4 @@ public static class Caixa
     }
 
 }
-
 
