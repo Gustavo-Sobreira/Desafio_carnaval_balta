@@ -1,0 +1,15 @@
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\bin\Debug\net7.0\Desafio-Balta-04.exe
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\bin\Debug\net7.0\Desafio-Balta-04.deps.json
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\bin\Debug\net7.0\Desafio-Balta-04.runtimeconfig.json
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\bin\Debug\net7.0\Desafio-Balta-04.dll
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\bin\Debug\net7.0\Desafio-Balta-04.pdb
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.csproj.AssemblyReference.cache
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.AssemblyInfoInputs.cache
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.AssemblyInfo.cs
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.csproj.CoreCompileInputs.cache
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.dll
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\refint\Desafio-Balta-04.dll
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.pdb
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\Desafio-Balta-04.genruntimeconfig.cache
+C:\dev\Balta.IO\DesafiosCarnaval\Desafio-Balta-04\obj\Debug\net7.0\ref\Desafio-Balta-04.dll
