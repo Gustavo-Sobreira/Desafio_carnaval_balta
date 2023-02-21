@@ -4,6 +4,8 @@
 - Output do programa: TREZENTOS E VINTE E OITO REAIS E NOVENTA CENTAVOS
 */
 double numero = 0;
+IniciarPrograma();
+
 int centena = (int)(numero / 100.00);
 int dezena = (int)((numero / 10.00) % 10);
 int unidade = (int)((numero % 100) % 10);
@@ -82,7 +84,6 @@ void CasaDaUnidade()
     else if (unidade == 9){nomeCasaUnidade = "Nove";}
 }
 
-IniciarPrograma();
 if (numero < 1000)
 {
     CasaDasCentenas();
