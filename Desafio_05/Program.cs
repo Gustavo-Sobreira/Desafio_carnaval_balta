@@ -3,9 +3,7 @@
 - Valor final da compra: 328,90
 - Output do programa: TREZENTOS E VINTE E OITO REAIS E NOVENTA CENTAVOS
 */
-Console.WriteLine("a");
-double numero = double.Parse(Console.ReadLine());
-
+double numero = 0;
 int centena = (int)(numero / 100.00);
 int dezena = (int)((numero / 10.00) % 10);
 int unidade = (int)((numero % 100) % 10);
@@ -15,6 +13,15 @@ int centesimal = (int)((((decimal) (numero) - (int)(numero))*100) % 10);
 string nomeCasaCentena = "";
 string nomeCasaDezena = "";
 string nomeCasaUnidade = "";
+
+void IniciarPrograma()
+{
+    try
+    {
+        Console.WriteLine("Diga o número que deseja escreve-lo por extenso: \nFormato X.XX");
+        numero = double.Parse(Console.ReadLine());
+    }catch{IniciarPrograma();}
+}
 
 void CasaDasCentenas()
 {
@@ -75,6 +82,7 @@ void CasaDaUnidade()
     else if (unidade == 9){nomeCasaUnidade = "Nove";}
 }
 
+IniciarPrograma();
 if (numero < 1000)
 {
     CasaDasCentenas();
