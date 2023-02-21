@@ -10,41 +10,43 @@ public static class Caixa
 
     public static void SepararTroco(decimal valorTotalDaCompra, decimal valorDoPagamento)
     {
-        List<decimal> moedaParaTroco = new List<decimal>();
+        List<decimal> moedasParaTroco = new List<decimal>();
         
         decimal troco = valorDoPagamento - valorTotalDaCompra;
 
         for (int i = 0; (i <= _valoresMoeda.Length) && (troco > 0); i++)
         {
-            if (_valoresMoeda[i] <= troco)
+            decimal moedaAtual = _valoresMoeda[i];
+            if (moedaAtual <= troco)
             {
-                troco -= _valoresMoeda[i];
-                moedaParaTroco.Add(_valoresMoeda[i]);
+                troco -= moedaAtual;
+                moedasParaTroco.Add(moedaAtual);
                 i--;
             }
         }
-        ContadorDeTroco(moedaParaTroco);
+        ContadorDeTroco(moedasParaTroco);
     }
 
-    public static void ContadorDeTroco(List<decimal> notasParaTroco)
+    public static void ContadorDeTroco(List<decimal> moedasParaTroco)
     {
         int valor = 0;
         
-        for ( valor = 0; valor < notasParaTroco.Count() -1; valor++)
+        for ( valor = 0; valor < moedasParaTroco.Count() -1; valor++)
         {
             int totalDeNota = 1;
+            decimal moedaAtual = moedasParaTroco[valor];
             
-            if (notasParaTroco[valor] == notasParaTroco[valor + 1])
+            if (moedaAtual == moedasParaTroco[valor + 1])
             {
                 totalDeNota++;
                 valor++;
             }
-            Console.WriteLine($"> {totalDeNota} exemplar(es) de {notasParaTroco[valor]} reais.");
+            Console.WriteLine($"> {totalDeNota} exemplar(es) de {moedaAtual} reais.");
         }
 
-        if (notasParaTroco[notasParaTroco.Count()-1] != notasParaTroco[notasParaTroco.Count()-2])
+        if (moedasParaTroco[moedasParaTroco.Count()-1] != moedasParaTroco[moedasParaTroco.Count()-2])
         {
-            Console.WriteLine($"> 1 exemplar(es) de {notasParaTroco[valor - 1]} reais.");
+            Console.WriteLine($"> 1 exemplar(es) de {moedasParaTroco[valor]} reais.");
         }
     }
 
