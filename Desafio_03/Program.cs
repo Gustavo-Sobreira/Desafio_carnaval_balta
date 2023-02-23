@@ -7,45 +7,17 @@ Vale ressaltar também que, caso o resultado desse cálculo feito for igual a 0,
  o consumidor também economizará ao abastecer com álcool.
 */
 
-void MontarCabecalho()
-{
-    Console.Clear();
-    Console.WriteLine("========== ========== === POSTO DO BALTA.IO === ========== ========== \n");
-}
+using Desafio_03;
 
-double GetPrecoCombustivel(string combustivel)
-{
-    MontarCabecalho();
+CalcularVantagem gasolinaParaValidar = new CalcularVantagem("gasolina");
+CalcularVantagem alcoolParavalidar = new CalcularVantagem("álcool");
 
-    try
-    {
-        Console.WriteLine($"Quanto custa 1L de {combustivel}?\nFormato X.XX");
-        double precoCombustivel = double.Parse(Console.ReadLine());
+double alcool = alcoolParavalidar.PrecoCombustivel;
+double gasolina = gasolinaParaValidar.PrecoCombustivel;
 
-        if (precoCombustivel > 0)
-        {
-            Console.Clear();
-            return precoCombustivel;
-        }
-
-        Console.WriteLine("O preço não pode ser negativo");
-        return GetPrecoCombustivel(combustivel);
-    } catch {
-        Console.WriteLine("Você pode usar somente números e ponto, conforme o formato exibido X.XX\nEnter para continuar...");
-        Console.ReadLine();
-        return GetPrecoCombustivel(combustivel);
-    }
-}
-
-double gasolina = GetPrecoCombustivel("gasolina");
-double alcool = GetPrecoCombustivel("álcool");
-
-
-double relacaoGasolinaAlcool = alcool / gasolina;
-string vantagem = relacaoGasolinaAlcool <= 0.7 ? "álcool" : "gasolina";
-
-Console.WriteLine($"Como resultado da divisão álcool / gasolina, temos {relacaoGasolinaAlcool}\n" +
-                  $"Isso indica melhor custo / benefício no abastecimento de {vantagem}.\n");
+Console.WriteLine($"Como resultado da divisão álcool / gasolina, temos {(alcool / gasolina):F2}\n" +
+                  "Isso indica melhor custo / benefício no abastecimento de "+
+                  $"{CalcularVantagem.CalcularRelacaoAlcoolGasolina(gasolina,alcool)}.\n");
 Console.WriteLine("========== ========== === ###-###- -###-### === ========== ==========");
 Console.ReadLine();
 
