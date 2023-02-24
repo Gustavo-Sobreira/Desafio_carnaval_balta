@@ -2,7 +2,7 @@ namespace Desafio_04;
 
 public static class Caixa
 {
-    private static decimal[] _valoresMoeda =
+    private static readonly decimal[] ValoresMoeda =
     {
         200, 100, 50, 20, 10, 5, 2, 1, 
         (decimal)(0.5), (decimal)0.25, (decimal)0.1, (decimal)0.05, (decimal)0.01
@@ -14,9 +14,9 @@ public static class Caixa
         
         decimal troco = valorDoPagamento - valorTotalDaCompra;
 
-        for (int i = 0; (i <= _valoresMoeda.Length) && (troco > 0); i++)
+        for (int i = 0; (i <= ValoresMoeda.Length) && (troco > 0); i++)
         {
-            decimal moedaAtual = _valoresMoeda[i];
+            decimal moedaAtual = ValoresMoeda[i];
             if (moedaAtual <= troco)
             {
                 troco -= moedaAtual;
@@ -27,9 +27,9 @@ public static class Caixa
         ContadorDeTroco(moedasParaTroco);
     }
 
-    public static void ContadorDeTroco(List<decimal> moedasParaTroco)
+    private static void ContadorDeTroco(List<decimal> moedasParaTroco)
     {
-        int valor = 0;
+        int valor;
         
         for ( valor = 0; valor < moedasParaTroco.Count() -1; valor++)
         {
@@ -52,13 +52,12 @@ public static class Caixa
 
     public static decimal GetValor(string tipoPagamento)
     {
-        Console.Clear();
         decimal valor = 0;
         
         try
         {
             Console.WriteLine($"Qual foi o valor {tipoPagamento}?\nFormato X.XX");
-            decimal recebido = decimal.Parse(Console.ReadLine());
+            decimal recebido = decimal.Parse(Console.ReadLine()!);
             valor = 0 <= recebido ? recebido : GetValor(tipoPagamento);
         }
         catch
@@ -69,6 +68,4 @@ public static class Caixa
         }
         return valor;
     }
-    
 }
-

@@ -3,11 +3,11 @@ namespace Desafio_02;
 public class CalculadoraIMc
 {
     public double MedidaInformada { get; private set; }
-    public string TipoMedida { get; private set; }
+    private string _tipoMedida;
     
     public CalculadoraIMc(string tipoMedida)
     {
-        this.TipoMedida = tipoMedida;
+        this._tipoMedida = tipoMedida;
         GetMedidas();
     }
     private void MontarCabecalho()
@@ -18,7 +18,7 @@ public class CalculadoraIMc
     private void GetMedidas()
     {
         MontarCabecalho();
-        Console.WriteLine($"Quanto você {TipoMedida}? X.XX");
+        Console.WriteLine($"Quanto você {_tipoMedida}? X.XX");
     
         double medidaInformada = 0;
     

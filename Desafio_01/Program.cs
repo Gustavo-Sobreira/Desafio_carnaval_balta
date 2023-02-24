@@ -4,20 +4,16 @@
 
 using desafio001;
 
-void ExibirResultados()
-{
-    Contador fraseAtual = new Contador();
+Contador fraseAtual = new Contador();
 
-    fraseAtual.ReceberTexto();
-    Contador.MontarCabecalho();
-    
-    Console.WriteLine("-> SUA FRASE: {0}\n\n"+
-    "                           TEMOS {1} CARACTERES \n" +
-    "                              E {2} PALAVRAS\n" +
-    "========== ========== ========== # # # ========== ========== =========="
-        ,fraseAtual.Frase, fraseAtual.Frase.Length, fraseAtual.ContarTotalDePalvaras());
-}
+fraseAtual.ReceberTexto();
+Contador.MontarCabecalho();
 
-ExibirResultados();
+Console.WriteLine("-> SUA FRASE: {0}\n\n"+
+"                           TEMOS {1} CARACTERES \n" +
+"                              E {2} PALAVRAS\n" +
+"========== ========== ========== # # # ========== ========== =========="
+    ,fraseAtual.Frase, fraseAtual.Frase.Length, fraseAtual.ContarTotalDePalvaras());
+
 Console.ReadLine();
 

@@ -17,7 +17,7 @@ double gasolina = gasolinaParaValidar.PrecoCombustivel;
 
 Console.WriteLine($"Como resultado da divisão álcool / gasolina, temos {(alcool / gasolina):F2}\n" +
                   "Isso indica melhor custo / benefício no abastecimento de "+
-                  $"{CalcularVantagem.CalcularRelacaoAlcoolGasolina(gasolina,alcool)}.\n");
-Console.WriteLine("========== ========== === ###-###- -###-### === ========== ==========");
+                  $"{CalcularVantagem.CalcularRelacaoAlcoolGasolina(gasolina,alcool)}.\n"+
+                  "========== ========== === ###-###- -###-### === ========== ==========");
 Console.ReadLine();
 

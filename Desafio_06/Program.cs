@@ -1,11 +1,7 @@
 ﻿using Desafio_06;
 
-void GetTexto()
+while (true)
 {
-    Console.Clear();
-    Console.WriteLine("Digite ou cole seu texto aqui: ");
-    string textoOriginal = Console.ReadLine();
-    string textoEncriptografado = Criptografia.CriptografarTexto(textoOriginal);
-    Console.WriteLine(textoEncriptografado);
+    Criptografia novaAcao = new Criptografia();
+    novaAcao.EscolherAcao();
 }
-GetTexto();

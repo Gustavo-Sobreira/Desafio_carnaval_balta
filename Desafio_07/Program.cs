@@ -11,7 +11,7 @@ for(int i = 0; i < 2; i++)
     Console.WriteLine(lista);
 }
 
-for (int i = 1;(sequencia.Count > 1) && (i < 50); i++)
+for (int i = 1;(sequencia.Count > 1) && (i < 20); i++)
 {
     sequencia.Add(sequencia[i] + sequencia[i-1]);
     lista += ($" - {sequencia[i] + sequencia[i - 1]}");
